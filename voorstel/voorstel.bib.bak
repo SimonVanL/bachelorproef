@@ -1,6 +1,6 @@
 % Encoding: windows-1252
 
-@Thesis{Jonsson2018,
+@Thesis{,
   author      = {Nicklas Jonsson},
   title       = {Ways to use Machine Learning approaches for software development},
   type        = {mathesis},

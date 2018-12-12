@@ -1,11 +1,36 @@
 % Encoding: windows-1252
 
-@Thesis{,
+@Thesis{Jonsson2018,
   author      = {Nicklas Jonsson},
   title       = {Ways to use Machine Learning approaches for software development},
   type        = {mathesis},
   institution = {UMEA Universitet},
   year        = {2018},
+}
+
+@TechReport{Bahreini2014,
+  author      = {Kiavash Bahreini, Rob Nadolski, Wim Westera},
+  title       = {Towards multimodal emotion recognition in e-learning environments},
+  institution = {Center for Learning Sciences and Technologies (CELSTEC)},
+  year        = {2014},
+  date        = {2014-05-12},
+}
+
+@TechReport{Whitehill2014,
+  author      = {Jacob Whitehill, Zewelanji Serpell, Yi-Ching Lin, Aysha Foster, Javier R. Movellan},
+  title       = {The Faces of Engagement: Automatic Recognition of Student Engagement from Facial Expressions},
+  institution = {University of California},
+  year        = {2014},
+  date        = {2014-01-01},
+}
+
+@WWW{Doerrfeld2015,
+  author = {Bill Doerrfeld},
+  editor = {Nordicapis},
+  title  = {20+ Emotion Recognition APIs That Will Leave You Impressed, and Concerned},
+  year   = {2015},
+  date   = {2015-12-31},
+  url    = {https://nordicapis.com/20-emotion-recognition-apis-that-will-leave-you-impressed-and-concerned/},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

@@ -11,14 +11,12 @@
 %  \item de doelstelling en onderzoeksvraag/-vragen
 % \end{itemize}
 
-Het aanbrengen van nieuwe leerstof is een continue opdracht voor lectoren. Tijdens een les kan een lector een indicatie krijgen van zijn studenten of ze geëngageerd zijn en gefocust zijn maar wat als een datagedreven model hierbij zou kunnen helpen? Technologische vooruitgang op het vlak van machineleertechnieken en artificiele intelligentie zorgen ervoor dat lectoren meer inzicht kunnen hebben over de graad van focus van de studenten.
-
-Dit onderzoek tracht antwoorden te vinden op de volgende onderzoeksvragen: 
-\textbf{Hoe kan emotieherkenning van studenten via machineleertechnieken de leskwaliteit verbeteren in het hoger onderwijs?}
+Voor e-commerce platformen (verkoop websites) is een van de grootste uitdagingen het vertrouwen winnen van hun klant, zij het door een goed ontworpen website, overtuigende productpagina's of het hebben van een vertrouwd merk. \autocite{Mary2018} Meer en meer wordt er gekeken naar de snelheid en ontwerp van deze platformen en productafbeeldingen spelen een grote rol hierin. Dit onderzoek tracht een antwoord te geven op de volgende vragen bij klanten van een 'Business-to-Customer' (B2C) perspectief: \textbf{Hoe zorgen productafbeeldingen voor een betere verkoop door klanten op e-commerce platformen?}
 \begin{itemize}
-    \item Welke software is er geschikt om focus te meten op vlak van emoties?
-    \item Hoe kunnen lectoren hun les verbeteren wetende dat de focus laag is?
-    \item Kan een gemeten focustrend de leskwaliteit daadwerkelijk verbeteren?
+	\item Welke factoren beïnvloeden het koopgedrag van klanten online?
+	\item Hoe overhaal je een klant om over te gaan van interesse naar aankoop?
+	\item Hoe kunnen foto's gecategoriseerd worden en welke foto's genereren meer verkoop?
+	\item Welke ratio bestaat er tussen klikken op een product en het effectief kopen?
 \end{itemize}
 
 %---------- Stand van zaken ---------------------------------------------------
@@ -39,28 +37,54 @@ Dit onderzoek tracht antwoorden te vinden op de volgende onderzoeksvragen:
 
 %Je mag gerust gebruik maken van subsecties in dit onderdeel.
 
-\subsection{Machineleertechnieken en gezichtsherkenning}
-De thesis \textcite{Jonsson2018} geeft duiding over het onderzoeksdomein machineleertechnieken en kunstmatige intelligentie. Kunstmatige intelligentie (AI) is concept bestaande van 1950 dat in de praktijk als volgt beschreven kan worden: het automatiseren van taken die menselijk denkwerk nodig hebben. 
+\subsection{Probleemstellingen bij e-commerce platformen}
+Er bestaan eindeloos veel verkoopwebsites, maar niet elke website ervaart hetzelfde succes. \cite{Kaur2017} beschrijft hoe marketing campagnes via het internet kunnen helpen voor naambekendheid en vertrouwen te scheppen bij de klant en waarom mensen online aankopen verkiezen boven het fysieke winkelen. Ook kan er ingespeeld worden op de volgende facetten \autocite{Stringham2010}: 
+\begin{itemize}
+	\item gebruiksgemak
+	\item naambekendheid
+	\item inhoud website
+	\item grafische vormgeving website
+\end{itemize}
 
-Een huidige vorm hiervan zijn machineleertechnieken (ML) waaronder gezichts- en emotieherkenning vallen. De aanpak bij ML bestaat niet uit klassieke geprogrammeerde regels. Een systeem op basis van ML tracht een regelmaat te vinden in een gestructureerde dataset (voor dit onderzoek gefilmde gezichten) en past bekomen regels toe op nieuwe data. 
+Samen met al deze aspecten is het ook belangrijk stil te staan hoe een product (afbeelding, omschrijving en reviews) tot bij de klant geraakt en waarom deze persoon een aankoopbeslissing neemt. \cite{Smaoui2017} geeft ook meer duiding over hoe de juiste afbeeldingen kunnen zorgen voor deze beslissing. Dit onderzoek handelt meer over marketing gerichte campagnes maar de bevindingen kunnen ook meer inzicht geven voor productfoto's zelf.
 
 \subsection{Gerelateerde onderzoeken}
-Er zijn veel onderzoeken gedaan naar emotiedetectie via ML. Deze beschrijven onder andere verdriet, woede, afkeer, schrik, blijheid, verrassing. Deze geven inzicht voor het opstellen van een soortgelijke proefopstelling en mogelijke conclusies achteraf. \textcite{Bahreini2014} beschrijft een opstelling waarbij testpersonen achter een computerscherm emoties nadoen om de ML software te trainen. Later focussen ze op de herkenning zelf. In dit onderzoek wordt er gebruik gemaakt van al bestaande software dus enkel het deel na de training is relevant. Ze concluderen dat hun zelfontwikkelde sofware goed werkt voor het meten van de bovenstaande emoties en bruikbaar kan zijn in veel werkomgevingen.
+\cite{Mary2018} beschrijft hoe de presentatie van een product een rol speelt bij verkoop, specifiek toegepast op websites. Er wordt ook aangehaald hoe onzekerheid voor een klant een groot risico is en dat daardoor het vertrouwen dat een website uitstraalt impactvol is voor de koop beslissing. 
 
-\textcite{Whitehill2014} behandelt een studie over ML software die meet hoe een student geëngageerd is en gefocust is tijdens het werken. Ze zetten ook hun eigen ML software op. Ze concluderen dat ML software gebruikt kan worden voor een 'real-time' automatische engagement detector vergelijkbaar met de accuraatheid van mensen. De data van de software was gecorreleerd met de resultaten van een kennis test achteraf. Dit onderzoek is zeer relevant voor mijn methodologie.
+\cite{Yang2016} handelt eerder over potenti"ele valkuilen en gevaren die kunnen leiden tot operationele ineffectiviteit. Hieruit kan er gekeken worden hoe websites dit probleem aanpakken.
 
-\subsection{Bestaande technologieën}
-Bestaande technologieën zijn er genoeg voor dit onderzoek zoals de 'Face API' op Azure die de zes bovenstaande emoties kan lezen of meer toegepaste software die ook het engagement van zijn publiek meet \autocite{Doerrfeld2015}.
+Om meer inzicht te krijgen in koopgedrag van klanten stelt \cite{Li2015} dat er 5 aspecten zijn die de performantie van e-commerce platformen beoordelen.
+
+Deze 3 onderzoeken kaarten een eerder globale visie aan over het koopgedrag en redeneringen van consumenten en gaat voornamelijk nuttig zijn voor een eerste onderzoek. De hoofdonderzoekvraag wordt pas volledig beantwoord na het dieper ingaan op hoe productafbeeldingen verkoop kunnen be"invloeden.
 %---------- Methodologie ------------------------------------------------------
 \section{Methodologie}
 \label{sec:methodologie}
 
 %Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
 
-Om de onderzoeksvragen te beantwoorden zal er gewerkt worden met twee delen. Enerzijds is er een noodzaak aan een vergelijkende studie tussen software om focus te meten op het vlak van emoties. Dit deel tracht een antwoord te vinden op de vraag welke software het meest geschikt is om focus te meten. Als proefopstelling zal een student aan een computer onderwezen worden door videobeelden. Ondertussen wordt hij of zij gefilmd en deze beelden worden onderworpen aan emotieherkenningssoftware. Achteraf wordt de persoon getest over het onderwezen onderwerp en wordt zijn score vergeleken met zijn gemeten focus.
+Het doelpubliek voor alle onderzoeken zijn potenti"ele klanten van B2C verkoopswebsites.
+Het eerste deel van het onderzoek focust zich voornamelijk op het verwerken van data uit vragenlijsten. Een vragenlijst tracht duiding te geven over hoe klanten tot een aankoopbeslissing komen en welke website factoren daar een aandeel in hebben. 
+Parallel daarmee worden er een vragenlijst opgesteld waarin er meerdere foto's getoond worden van een bepaald product. Testpersonen worden bevraagd welke foto van het gegeven product hun het meeste zou overtuigen en waarom. Het is de bedoeling deze foto's te gebruiken in een verkoopswebsite van een klant van Synrise Labs. In het geval er geen toegang is tot data van een echte website zal de studie voornamelijk verder handelen over op welke manier de gekozen producten zich onderscheiden van de rest en of er gelijkende aspecten naar boven kunnen komen.
+De verkoop van de producten zelf is ook een deel van het onderzoek maar in een laatste fase. 
 
-Een tweede deel van het onderzoek omvat het uittesten van een echte proefopstelling in een lokaal waar onderwezen wordt. Hier wordt een onderzoek gedaan op welke manier het mogelijk is om deze opstelling te maken en hoe lectoren hun les kunnen verbeteren op basis van de data de verkozen software genereert. De onderzoekstechnieken hier bestaan uit vragenlijsten of interviews met lectoren over de mogelijkheden van een dergelijke opstelling en experimenten door een ontwikkelde opstelling. Na het gebruik van deze opstelling wordt de lector ondervraagd over de resultaten hiervan.
+Een overzicht van het onderzoek staat beschreven in Figuur \ref{gantt}
 
+\begin{figure}
+\begin{ganttchart}{1}{12}
+	\gantttitle{Verloop Bachelorproef}{12} \\
+	\gantttitlelist{42,...,52,1}{1} \\
+	\ganttbar{Voorstel}{1}{2} \\
+	\ganttlinkedbar{Literatuurstudie}{3}{7} \\
+	\ganttlinkedbar{Alg. onderzoek}{8}{11} \\
+	\ganttbar{Foto onderzoek}{8}{11} \\
+	\ganttmilestone{Finale versie BP}{12} 
+	\ganttlink[link mid=0.25]{elem1}{elem3}
+	\ganttlink{elem2}{elem4}
+	\ganttlink[link mid=0]{elem3}{elem4}
+\end{ganttchart}
+\caption{Verloop ingedeeld in weken van het jaar: week 42 tot 1}
+\label{gantt}
+\end{figure}
 
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwachte resultaten}
@@ -68,12 +92,9 @@ Een tweede deel van het onderzoek omvat het uittesten van een echte proefopstell
 
 %Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de stukken van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet hoe je je data gaat moeten structureren.
 
+Uit de eerste vragenlijst kan een resultaat komen dat nagaat of theoretisch bepaalde factoren voor online verkoopgedrag ook overeen komen met de realiteit. Dit is eerder een uitbreidend onderzoek naar wat er al gebeurd is en geeft meer zicht over op welke manier klanten overhaald worden om een product te kopen.
 
-De verwachte resultaten van het eerste deel is een vergelijking tussen de gemeten emoties tijdens het onderwijzen van testpersonen en de antwoorden op de test achteraf. 
-
-De vragenlijsten en interviews zullen antwoorden op de vraag hoe een gemiddelde focusgraad (of trend gedurende een les) kan helpen de les te verbeteren.
-
-De proefopstelling zelf zal duiding geven hoe de data van de software gebruikt werd en hoe deze een impact heeft gehad. 
+Daarnaast wordt er vergeleken of beter scorende productfoto's ook beter verkopen. Aangezien verkoopscijfers heel tijdsafhankelijk zijn worden alle hoeveelheden genormaliseerd naar de verkoopstrend van vorige jaren. 
 
 
 %---------- Verwachte conclusies ----------------------------------------------
@@ -82,6 +103,6 @@ De proefopstelling zelf zal duiding geven hoe de data van de software gebruikt w
 
 %Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.
 
-Het eerste deel van het onderzoek heeft als doel een bepaalde software te vinden die het meest geschikt is om de focusgraad van een student te meten. Dit op het gebied van de emoties die de software kan meten en de haalbaarheid om deze te gebruiken in een proefopstelling in een klaslokaal.
+Uit alle resultaten kan er een beeld opgemaakt worden welke factoren klanten het meest be"invloeden om een aankoop te doen. Uit een eerste literatuurstudie lijkt het dat websites met een goede naam, die vlot en intuitief werken en grafisch goed ontworpen zijn. 
 
-Na de proefopstelling kan er besloten worden of het opstellen van een camera en emotieherkennende software lectoren kunnen voorzien van info die daadwerkelijk gebruikt kan worden. De verwachte conclusie is dat een dergelijke opstelling effectief nuttige info kan verschaffen aan lectoren. \textsl{}
+Het tweede deel zal uitmaken of er al dan niet een voorkeur is op het gebied van productafbeeldingen. Met voldoende personen die de vragenlijst invullen en als er aan echte verkoopcijfers geraakt wordt verwacht ik een correlatie tussen de verkoop door gebruik van bepaalde foto's en de data.
